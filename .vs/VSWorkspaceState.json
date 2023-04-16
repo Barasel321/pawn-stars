@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\chessEnv",
+    "\\chessEnv\\Lib",
+    "\\chessEnv\\Lib\\site-packages"
   ],
+  "SelectedNode": "\\chessDriver.py",
   "PreviewInSolutionExplorer": false
 }
