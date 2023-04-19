@@ -16,12 +16,9 @@ def make_move(move):
 
 
 board = chess.Board()
-gameStatus = "not over"
 
 while not board.is_game_over():
     move = random.choice([move for move in board.legal_moves])
     gameStatus = make_move(move)
     print(gameStatus)
     print(board)
-
-

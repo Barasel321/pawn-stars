@@ -5,5 +5,6 @@ Barsoum Basta, Colby Brudin, Daniel Dean, Jamin Valick, Jiwoong Jeon, Nicholas G
 
 
 ## libraries:
-https://pypi.org/project/chess/\
+https://pypi.org/project/chess/
+\
 https://pypi.org/project/tensorflow/
