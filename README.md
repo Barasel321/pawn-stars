@@ -32,16 +32,20 @@ The model ended up being awful at playing chess, but was fairly better than rand
 
 ### board_fen_to_8x8:
 Input: FEN notation for a chess board
+\
 Output: an 8-by-8 grid corresponding to the rows and columns of the chessboard, where 0's are put in place of blanks
 
 ### letter_to_number:
 Input: a letter corresponding to a piece
+\
 Output: a number between -6 and 6 (not 0) that catagorizes the piece in the form of an integer
 
 ### board_to_nums:
 Input: a chess board (in array notation from board_fen_to_8x8 method)
+\
 Output: the same board but with the letters mapped to numbers between -6 and 6.
 
 ### board_to_12_array:
 Input: a chess board (in array notation from board_fen_to_8x8 method)
+\
 Output: a 3D-array consisting of 12 8-by-8 arrays that each correspond to the specific locations of a piece on the chessboard. For example, one of the arrays would be the position of all 8 (or less) white pawns on the board, with a 1 in the location they are in and 0's everywhere else.
